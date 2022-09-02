@@ -9,9 +9,18 @@ function App() {
     <div className="App">
       <h1>This is my app.</h1>
 
-      <ul style={{ listStyle: "none", }}>
-        <li><Link to="/hello">Hello</Link></li>
-        <li><Link to="/hi">Hi</Link></li>
+      <ul style={{ listStyle: "none" }}>
+        <li>
+          <Link to="/hello">Hello</Link>
+        </li>
+        
+        <li>
+          <Link to="/hi">Hi</Link>
+        </li>
+
+        <li>
+          <Link to="/peoples">Peoples</Link>
+        </li>
       </ul>
     </div>
   )
