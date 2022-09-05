@@ -32,7 +32,14 @@ const peoples = [
     name: "Amanda",
     gender: "F",
     age: 18,
-  }
+  },
+
+  {
+    id: 6,
+    name: "Mariana",
+    gender: "F",
+    age: 60,
+  },
 ]
 
 export function getAllPeoples() {

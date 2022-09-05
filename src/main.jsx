@@ -15,9 +15,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
         <Route path="*" element={<NotFound />} />
+
         <Route path="/" element={<App />} />
+
         <Route path="hi" element={<Hi />} />
         <Route path="hello" element={<Hello />} />
+        
         <Route path="peoples" element={<PeopleList />}>
           <Route index element={<PeopleIndex />} />
           <Route path=":peopleId" element={<PeopleInfo/>} />

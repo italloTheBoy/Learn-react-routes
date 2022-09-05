@@ -1,0 +1,14 @@
+.peopleNav {
+  display: flex;
+  flex-direction: column; 
+}
+
+.activePeopleNav {
+  color: red;
+  text-decoration: underline;
+}
+
+.activePeopleNav:hover {
+  color: #ff7487;
+  text-decoration: underline;
+}
